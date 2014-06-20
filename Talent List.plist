@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Tier 0</key>
+	<dict>
+		<key>Path of the Warrior</key>
+		<array>
+			<string>Your hero gains 35 maximum health every level.</string>
+		</array>
+		<key>Damage Slide (Q)</key>
+		<array>
+			<string>Increases the damage of Powerslide by 30%.</string>
+		</array>
+		<key>Groupies (E)</key>
+		<array>
+			<string>Guitar Solo now also heals nearby allies for ### health every second for its duration.</string>
+			<integer>12</integer>
+			<string>3</string>
+		</array>
+		<key>Pwn Shop Guitar (E)</key>
+		<array>
+			<string>Guitar Solo&apos;s mana cost is reduced by 50%.</string>
+		</array>
+	</dict>
+</dict>
 </plist>

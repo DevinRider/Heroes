@@ -10,4 +10,20 @@
 
 @implementation DEVHeroTalent
 
+- (instancetype)initTalent:(NSArray *)talentArray
+                  withName:(NSString *)name
+{
+    self = [super init];
+    
+    _name = name;
+    _description = talentArray[0];
+    
+    if([talentArray count] > 1) {
+        _baseDamage = [talentArray[1] integerValue];
+        _damagePerLevel = [talentArray[2] integerValue];
+    }
+    
+    return self;
+}
+
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "DEVAppDelegate.h"
+#import "DEVHeroCollection.h"
+#import "DEVHero.h"
 
 @implementation DEVAppDelegate
 
@@ -14,6 +16,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    DEVHero *brightwing = [[DEVHeroCollection heroCollection] allItems][@"Tassadar"];
+    [brightwing setLevel:10];
+    NSLog(@"Q: %@", [brightwing abilityDescription:DEVHeroAbilityQ]);
+    NSLog(@"W: %@", [brightwing abilityDescription:DEVHeroAbilityW]);
+    NSLog(@"E: %@", [brightwing abilityDescription:DEVHeroAbilityE]);
+    NSLog(@"R1: %@", [brightwing abilityDescription:DEVHeroAbilityROne]);
+    NSLog(@"R2: %@", [brightwing abilityDescription:DEVHeroAbilityRTwo]);
+    NSLog(@"Trait: %@", [brightwing abilityDescription:DEVHeroAbilityTrait]);
+
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

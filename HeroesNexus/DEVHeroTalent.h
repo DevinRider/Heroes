@@ -10,4 +10,13 @@
 
 @interface DEVHeroTalent : NSObject
 
+@property (nonatomic, readonly) NSString *name;
+@property (nonatomic, readonly) NSString *description;
+
+@property (nonatomic, readonly) int baseDamage;
+@property (nonatomic, readonly) int damagePerLevel;
+
+- (instancetype)initTalent:(NSArray *)talentArray
+                  withName:(NSString *)name;
+
 @end

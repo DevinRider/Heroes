@@ -19,6 +19,13 @@
 		E00CF265194E40BD0059F5C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00CF24D194E40BC0059F5C2 /* UIKit.framework */; };
 		E00CF26D194E40BD0059F5C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E00CF26B194E40BD0059F5C2 /* InfoPlist.strings */; };
 		E00CF26F194E40BD0059F5C2 /* HeroesNexusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CF26E194E40BD0059F5C2 /* HeroesNexusTests.m */; };
+		E00CF27A194E41600059F5C2 /* DEVHero.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CF279194E41600059F5C2 /* DEVHero.m */; };
+		E00CF27D194E6B1B0059F5C2 /* DEVHeroCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = E00CF27C194E6B1B0059F5C2 /* DEVHeroCollection.m */; };
+		E00CF280194F4FB30059F5C2 /* Hero List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E00CF27F194F4FB30059F5C2 /* Hero List.plist */; };
+		E095CEC11950A3DA00E09673 /* Ability List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E095CEC01950A3DA00E09673 /* Ability List.plist */; };
+		E095CEC41950C1C800E09673 /* DEVAbility.m in Sources */ = {isa = PBXBuildFile; fileRef = E095CEC31950C1C800E09673 /* DEVAbility.m */; };
+		E095CECA1952150B00E09673 /* DEVHeroTalent.m in Sources */ = {isa = PBXBuildFile; fileRef = E095CEC91952150B00E09673 /* DEVHeroTalent.m */; };
+		E095CECE195216D600E09673 /* Talent List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E095CECD195216D600E09673 /* Talent List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,17 @@
 		E00CF26A194E40BD0059F5C2 /* HeroesNexusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeroesNexusTests-Info.plist"; sourceTree = "<group>"; };
 		E00CF26C194E40BD0059F5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E00CF26E194E40BD0059F5C2 /* HeroesNexusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroesNexusTests.m; sourceTree = "<group>"; };
+		E00CF278194E41600059F5C2 /* DEVHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHero.h; sourceTree = "<group>"; };
+		E00CF279194E41600059F5C2 /* DEVHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHero.m; sourceTree = "<group>"; };
+		E00CF27B194E6B1B0059F5C2 /* DEVHeroCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHeroCollection.h; sourceTree = "<group>"; };
+		E00CF27C194E6B1B0059F5C2 /* DEVHeroCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHeroCollection.m; sourceTree = "<group>"; };
+		E00CF27F194F4FB30059F5C2 /* Hero List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Hero List.plist"; sourceTree = "<group>"; };
+		E095CEC01950A3DA00E09673 /* Ability List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ability List.plist"; sourceTree = "<group>"; };
+		E095CEC21950C1C800E09673 /* DEVAbility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVAbility.h; sourceTree = "<group>"; };
+		E095CEC31950C1C800E09673 /* DEVAbility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVAbility.m; sourceTree = "<group>"; };
+		E095CEC81952150B00E09673 /* DEVHeroTalent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHeroTalent.h; sourceTree = "<group>"; };
+		E095CEC91952150B00E09673 /* DEVHeroTalent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHeroTalent.m; sourceTree = "<group>"; };
+		E095CECD195216D600E09673 /* Talent List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Talent List.plist"; path = "../Talent List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,7 @@
 			children = (
 				E00CF258194E40BC0059F5C2 /* DEVAppDelegate.h */,
 				E00CF259194E40BC0059F5C2 /* DEVAppDelegate.m */,
+				E00CF27E194E6CF70059F5C2 /* Model */,
 				E00CF25B194E40BC0059F5C2 /* Images.xcassets */,
 				E00CF250194E40BC0059F5C2 /* Supporting Files */,
 			);
@@ -119,6 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				E00CF251194E40BC0059F5C2 /* HeroesNexus-Info.plist */,
+				E00CF27F194F4FB30059F5C2 /* Hero List.plist */,
+				E095CEC01950A3DA00E09673 /* Ability List.plist */,
+				E095CECD195216D600E09673 /* Talent List.plist */,
 				E00CF252194E40BC0059F5C2 /* InfoPlist.strings */,
 				E00CF255194E40BC0059F5C2 /* main.m */,
 				E00CF257194E40BC0059F5C2 /* HeroesNexus-Prefix.pch */,
@@ -142,6 +164,21 @@
 				E00CF26B194E40BD0059F5C2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E00CF27E194E6CF70059F5C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E00CF278194E41600059F5C2 /* DEVHero.h */,
+				E00CF279194E41600059F5C2 /* DEVHero.m */,
+				E00CF27B194E6B1B0059F5C2 /* DEVHeroCollection.h */,
+				E00CF27C194E6B1B0059F5C2 /* DEVHeroCollection.m */,
+				E095CEC21950C1C800E09673 /* DEVAbility.h */,
+				E095CEC31950C1C800E09673 /* DEVAbility.m */,
+				E095CEC81952150B00E09673 /* DEVHeroTalent.h */,
+				E095CEC91952150B00E09673 /* DEVHeroTalent.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E095CECE195216D600E09673 /* Talent List.plist in Resources */,
+				E00CF280194F4FB30059F5C2 /* Hero List.plist in Resources */,
+				E095CEC11950A3DA00E09673 /* Ability List.plist in Resources */,
 				E00CF254194E40BC0059F5C2 /* InfoPlist.strings in Resources */,
 				E00CF25C194E40BC0059F5C2 /* Images.xcassets in Resources */,
 			);
@@ -240,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E00CF27A194E41600059F5C2 /* DEVHero.m in Sources */,
+				E095CECA1952150B00E09673 /* DEVHeroTalent.m in Sources */,
+				E095CEC41950C1C800E09673 /* DEVAbility.m in Sources */,
 				E00CF25A194E40BC0059F5C2 /* DEVAppDelegate.m in Sources */,
 				E00CF256194E40BC0059F5C2 /* main.m in Sources */,
+				E00CF27D194E6B1B0059F5C2 /* DEVHeroCollection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +482,7 @@
 				E00CF274194E40BD0059F5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E00CF275194E40BD0059F5C2 /* Build configuration list for PBXNativeTarget "HeroesNexusTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +491,7 @@
 				E00CF277194E40BD0059F5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

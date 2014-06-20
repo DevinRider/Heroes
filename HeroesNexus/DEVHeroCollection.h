@@ -10,4 +10,8 @@
 
 @interface DEVHeroCollection : NSObject
 
++ (instancetype)heroCollection;
+
+- (NSDictionary *)allItems;
+
 @end
