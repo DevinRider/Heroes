@@ -40,12 +40,12 @@
     if(self){
         //fill the dict with heroes
         for(NSDictionary *oneHero in heroDict){
-            NSDictionary *oneHerosAbilities = abilDict[oneHero[@"name"]];
+            NSArray *oneHerosAbilities = abilDict[oneHero[@"name"]];
             
             DEVHero *hero = [[DEVHero alloc] initWithDictionary:oneHero
                                                   withAbilities:oneHerosAbilities];
             
-            [_privateHeroesCollection setObject:hero forKey:hero.name];
+           [_privateHeroesCollection setObject:hero forKey:hero.name];
         }
     }
     return self;

@@ -18,6 +18,7 @@
 @property (nonatomic, readonly) NSString *title;
 @property (nonatomic, readonly) NSArray *roles;
 @property (nonatomic, readonly) NSString *universe;
+@property (nonatomic, readonly) NSString *imagePath;
 
 @property (nonatomic) int currentLevel;
 
@@ -44,7 +45,7 @@ typedef enum DEVHeroAbility{
 
 //the designated initializer, a hero needs to be filled with stats on initialization
 - (instancetype)initWithDictionary:(NSDictionary *)heroDict
-                     withAbilities:(NSDictionary *)abilDict;
+                     withAbilities:(NSArray *)abilDict;
 
 //this will throw an exception, use the above init
 - (instancetype)init;

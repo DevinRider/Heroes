@@ -26,6 +26,36 @@
 		E095CEC41950C1C800E09673 /* DEVAbility.m in Sources */ = {isa = PBXBuildFile; fileRef = E095CEC31950C1C800E09673 /* DEVAbility.m */; };
 		E095CECA1952150B00E09673 /* DEVHeroTalent.m in Sources */ = {isa = PBXBuildFile; fileRef = E095CEC91952150B00E09673 /* DEVHeroTalent.m */; };
 		E095CECE195216D600E09673 /* Talent List.plist in Resources */ = {isa = PBXBuildFile; fileRef = E095CECD195216D600E09673 /* Talent List.plist */; };
+		E095CED21962581D00E09673 /* DEVHeroLoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E095CED11962581D00E09673 /* DEVHeroLoreViewController.m */; };
+		E095CEEF1963A44400E09673 /* Abathur_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CED41963A44400E09673 /* Abathur_tile.png */; };
+		E095CEF01963A44400E09673 /* Arthas_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CED51963A44400E09673 /* Arthas_tile.png */; };
+		E095CEF11963A44400E09673 /* Barbarian_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CED61963A44400E09673 /* Barbarian_tile.png */; };
+		E095CEF21963A44400E09673 /* Brightwing_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CED71963A44400E09673 /* Brightwing_tile.png */; };
+		E095CEF31963A44400E09673 /* Valla_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CED81963A44400E09673 /* Valla_tile.png */; };
+		E095CEF41963A44400E09673 /* Diablo_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CED91963A44400E09673 /* Diablo_tile.png */; };
+		E095CEF51963A44400E09673 /* E.T.C._tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEDA1963A44400E09673 /* E.T.C._tile.png */; };
+		E095CEF61963A44400E09673 /* Falstad_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEDB1963A44400E09673 /* Falstad_tile.png */; };
+		E095CEF71963A44400E09673 /* Gazlowe_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEDC1963A44400E09673 /* Gazlowe_tile.png */; };
+		E095CEF81963A44400E09673 /* Illidan_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEDD1963A44400E09673 /* Illidan_tile.png */; };
+		E095CEF91963A44400E09673 /* Kerrigan_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEDE1963A44400E09673 /* Kerrigan_tile.png */; };
+		E095CEFA1963A44400E09673 /* Li Li_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEDF1963A44400E09673 /* Li Li_tile.png */; };
+		E095CEFB1963A44400E09673 /* Malfurion_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE01963A44400E09673 /* Malfurion_tile.png */; };
+		E095CEFC1963A44400E09673 /* Muradin_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE11963A44400E09673 /* Muradin_tile.png */; };
+		E095CEFD1963A44400E09673 /* Murky_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE21963A44400E09673 /* Murky_tile.png */; };
+		E095CEFE1963A44400E09673 /* Nova_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE31963A44400E09673 /* Nova_tile.png */; };
+		E095CEFF1963A44400E09673 /* Raynor_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE41963A44400E09673 /* Raynor_tile.png */; };
+		E095CF001963A44400E09673 /* Sgt. Hammer_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE51963A44400E09673 /* Sgt. Hammer_tile.png */; };
+		E095CF011963A44400E09673 /* Stitches_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE61963A44400E09673 /* Stitches_tile.png */; };
+		E095CF021963A44400E09673 /* Tassadar_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE71963A44400E09673 /* Tassadar_tile.png */; };
+		E095CF031963A44400E09673 /* Tychus_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE81963A44400E09673 /* Tychus_tile.png */; };
+		E095CF041963A44400E09673 /* Tyrael_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEE91963A44400E09673 /* Tyrael_tile.png */; };
+		E095CF051963A44400E09673 /* Tyrande_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEEA1963A44400E09673 /* Tyrande_tile.png */; };
+		E095CF061963A44400E09673 /* Uther_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEEB1963A44400E09673 /* Uther_tile.png */; };
+		E095CF071963A44400E09673 /* Nazeebo_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEEC1963A44400E09673 /* Nazeebo_tile.png */; };
+		E095CF081963A44400E09673 /* Zagara_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEED1963A44400E09673 /* Zagara_tile.png */; };
+		E095CF091963A44400E09673 /* Zeratul_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = E095CEEE1963A44400E09673 /* Zeratul_tile.png */; };
+		E095CF0C1963A76100E09673 /* DEVHeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E095CF0B1963A76100E09673 /* DEVHeroViewController.m */; };
+		E095CF0F1963AA1B00E09673 /* DEVHeroStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E095CF0E1963AA1B00E09673 /* DEVHeroStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +96,39 @@
 		E095CEC81952150B00E09673 /* DEVHeroTalent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHeroTalent.h; sourceTree = "<group>"; };
 		E095CEC91952150B00E09673 /* DEVHeroTalent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHeroTalent.m; sourceTree = "<group>"; };
 		E095CECD195216D600E09673 /* Talent List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Talent List.plist"; path = "../Talent List.plist"; sourceTree = "<group>"; };
+		E095CED01962581C00E09673 /* DEVHeroLoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHeroLoreViewController.h; sourceTree = "<group>"; };
+		E095CED11962581D00E09673 /* DEVHeroLoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHeroLoreViewController.m; sourceTree = "<group>"; };
+		E095CED41963A44400E09673 /* Abathur_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Abathur_tile.png; sourceTree = "<group>"; };
+		E095CED51963A44400E09673 /* Arthas_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arthas_tile.png; sourceTree = "<group>"; };
+		E095CED61963A44400E09673 /* Barbarian_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barbarian_tile.png; sourceTree = "<group>"; };
+		E095CED71963A44400E09673 /* Brightwing_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brightwing_tile.png; sourceTree = "<group>"; };
+		E095CED81963A44400E09673 /* Valla_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Valla_tile.png; sourceTree = "<group>"; };
+		E095CED91963A44400E09673 /* Diablo_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diablo_tile.png; sourceTree = "<group>"; };
+		E095CEDA1963A44400E09673 /* E.T.C._tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E.T.C._tile.png; sourceTree = "<group>"; };
+		E095CEDB1963A44400E09673 /* Falstad_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Falstad_tile.png; sourceTree = "<group>"; };
+		E095CEDC1963A44400E09673 /* Gazlowe_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gazlowe_tile.png; sourceTree = "<group>"; };
+		E095CEDD1963A44400E09673 /* Illidan_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Illidan_tile.png; sourceTree = "<group>"; };
+		E095CEDE1963A44400E09673 /* Kerrigan_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kerrigan_tile.png; sourceTree = "<group>"; };
+		E095CEDF1963A44400E09673 /* Li Li_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Li Li_tile.png"; sourceTree = "<group>"; };
+		E095CEE01963A44400E09673 /* Malfurion_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Malfurion_tile.png; sourceTree = "<group>"; };
+		E095CEE11963A44400E09673 /* Muradin_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Muradin_tile.png; sourceTree = "<group>"; };
+		E095CEE21963A44400E09673 /* Murky_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Murky_tile.png; sourceTree = "<group>"; };
+		E095CEE31963A44400E09673 /* Nova_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nova_tile.png; sourceTree = "<group>"; };
+		E095CEE41963A44400E09673 /* Raynor_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raynor_tile.png; sourceTree = "<group>"; };
+		E095CEE51963A44400E09673 /* Sgt. Hammer_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sgt. Hammer_tile.png"; sourceTree = "<group>"; };
+		E095CEE61963A44400E09673 /* Stitches_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stitches_tile.png; sourceTree = "<group>"; };
+		E095CEE71963A44400E09673 /* Tassadar_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tassadar_tile.png; sourceTree = "<group>"; };
+		E095CEE81963A44400E09673 /* Tychus_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tychus_tile.png; sourceTree = "<group>"; };
+		E095CEE91963A44400E09673 /* Tyrael_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tyrael_tile.png; sourceTree = "<group>"; };
+		E095CEEA1963A44400E09673 /* Tyrande_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tyrande_tile.png; sourceTree = "<group>"; };
+		E095CEEB1963A44400E09673 /* Uther_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uther_tile.png; sourceTree = "<group>"; };
+		E095CEEC1963A44400E09673 /* Nazeebo_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nazeebo_tile.png; sourceTree = "<group>"; };
+		E095CEED1963A44400E09673 /* Zagara_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zagara_tile.png; sourceTree = "<group>"; };
+		E095CEEE1963A44400E09673 /* Zeratul_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zeratul_tile.png; sourceTree = "<group>"; };
+		E095CF0A1963A76100E09673 /* DEVHeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHeroViewController.h; sourceTree = "<group>"; };
+		E095CF0B1963A76100E09673 /* DEVHeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHeroViewController.m; sourceTree = "<group>"; };
+		E095CF0D1963AA1B00E09673 /* DEVHeroStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEVHeroStatsViewController.h; sourceTree = "<group>"; };
+		E095CF0E1963AA1B00E09673 /* DEVHeroStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEVHeroStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +190,7 @@
 			children = (
 				E00CF258194E40BC0059F5C2 /* DEVAppDelegate.h */,
 				E00CF259194E40BC0059F5C2 /* DEVAppDelegate.m */,
+				E095CECF1962576600E09673 /* Controllers */,
 				E00CF27E194E6CF70059F5C2 /* Model */,
 				E00CF25B194E40BC0059F5C2 /* Images.xcassets */,
 				E00CF250194E40BC0059F5C2 /* Supporting Files */,
@@ -137,6 +201,7 @@
 		E00CF250194E40BC0059F5C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E095CED31963A44400E09673 /* HOTS Hero Profile Pics */,
 				E00CF251194E40BC0059F5C2 /* HeroesNexus-Info.plist */,
 				E00CF27F194F4FB30059F5C2 /* Hero List.plist */,
 				E095CEC01950A3DA00E09673 /* Ability List.plist */,
@@ -179,6 +244,53 @@
 				E095CEC91952150B00E09673 /* DEVHeroTalent.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		E095CECF1962576600E09673 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E095CF0D1963AA1B00E09673 /* DEVHeroStatsViewController.h */,
+				E095CF0E1963AA1B00E09673 /* DEVHeroStatsViewController.m */,
+				E095CED01962581C00E09673 /* DEVHeroLoreViewController.h */,
+				E095CED11962581D00E09673 /* DEVHeroLoreViewController.m */,
+				E095CF0A1963A76100E09673 /* DEVHeroViewController.h */,
+				E095CF0B1963A76100E09673 /* DEVHeroViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E095CED31963A44400E09673 /* HOTS Hero Profile Pics */ = {
+			isa = PBXGroup;
+			children = (
+				E095CED41963A44400E09673 /* Abathur_tile.png */,
+				E095CED51963A44400E09673 /* Arthas_tile.png */,
+				E095CED61963A44400E09673 /* Barbarian_tile.png */,
+				E095CED71963A44400E09673 /* Brightwing_tile.png */,
+				E095CED81963A44400E09673 /* Valla_tile.png */,
+				E095CED91963A44400E09673 /* Diablo_tile.png */,
+				E095CEDA1963A44400E09673 /* E.T.C._tile.png */,
+				E095CEDB1963A44400E09673 /* Falstad_tile.png */,
+				E095CEDC1963A44400E09673 /* Gazlowe_tile.png */,
+				E095CEDD1963A44400E09673 /* Illidan_tile.png */,
+				E095CEDE1963A44400E09673 /* Kerrigan_tile.png */,
+				E095CEDF1963A44400E09673 /* Li Li_tile.png */,
+				E095CEE01963A44400E09673 /* Malfurion_tile.png */,
+				E095CEE11963A44400E09673 /* Muradin_tile.png */,
+				E095CEE21963A44400E09673 /* Murky_tile.png */,
+				E095CEE31963A44400E09673 /* Nova_tile.png */,
+				E095CEE41963A44400E09673 /* Raynor_tile.png */,
+				E095CEE51963A44400E09673 /* Sgt. Hammer_tile.png */,
+				E095CEE61963A44400E09673 /* Stitches_tile.png */,
+				E095CEE71963A44400E09673 /* Tassadar_tile.png */,
+				E095CEE81963A44400E09673 /* Tychus_tile.png */,
+				E095CEE91963A44400E09673 /* Tyrael_tile.png */,
+				E095CEEA1963A44400E09673 /* Tyrande_tile.png */,
+				E095CEEB1963A44400E09673 /* Uther_tile.png */,
+				E095CEEC1963A44400E09673 /* Nazeebo_tile.png */,
+				E095CEED1963A44400E09673 /* Zagara_tile.png */,
+				E095CEEE1963A44400E09673 /* Zeratul_tile.png */,
+			);
+			path = "HOTS Hero Profile Pics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,11 +369,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E095CF011963A44400E09673 /* Stitches_tile.png in Resources */,
+				E095CEF81963A44400E09673 /* Illidan_tile.png in Resources */,
+				E095CEF41963A44400E09673 /* Diablo_tile.png in Resources */,
+				E095CF001963A44400E09673 /* Sgt. Hammer_tile.png in Resources */,
 				E095CECE195216D600E09673 /* Talent List.plist in Resources */,
+				E095CEFA1963A44400E09673 /* Li Li_tile.png in Resources */,
+				E095CEF01963A44400E09673 /* Arthas_tile.png in Resources */,
+				E095CEF91963A44400E09673 /* Kerrigan_tile.png in Resources */,
+				E095CEF21963A44400E09673 /* Brightwing_tile.png in Resources */,
+				E095CF021963A44400E09673 /* Tassadar_tile.png in Resources */,
+				E095CEFC1963A44400E09673 /* Muradin_tile.png in Resources */,
+				E095CF051963A44400E09673 /* Tyrande_tile.png in Resources */,
+				E095CEFB1963A44400E09673 /* Malfurion_tile.png in Resources */,
 				E00CF280194F4FB30059F5C2 /* Hero List.plist in Resources */,
+				E095CEF51963A44400E09673 /* E.T.C._tile.png in Resources */,
 				E095CEC11950A3DA00E09673 /* Ability List.plist in Resources */,
+				E095CEF11963A44400E09673 /* Barbarian_tile.png in Resources */,
+				E095CEEF1963A44400E09673 /* Abathur_tile.png in Resources */,
+				E095CF071963A44400E09673 /* Nazeebo_tile.png in Resources */,
+				E095CF031963A44400E09673 /* Tychus_tile.png in Resources */,
+				E095CF041963A44400E09673 /* Tyrael_tile.png in Resources */,
+				E095CEFE1963A44400E09673 /* Nova_tile.png in Resources */,
 				E00CF254194E40BC0059F5C2 /* InfoPlist.strings in Resources */,
+				E095CF091963A44400E09673 /* Zeratul_tile.png in Resources */,
 				E00CF25C194E40BC0059F5C2 /* Images.xcassets in Resources */,
+				E095CF061963A44400E09673 /* Uther_tile.png in Resources */,
+				E095CEF61963A44400E09673 /* Falstad_tile.png in Resources */,
+				E095CEFF1963A44400E09673 /* Raynor_tile.png in Resources */,
+				E095CEF31963A44400E09673 /* Valla_tile.png in Resources */,
+				E095CF081963A44400E09673 /* Zagara_tile.png in Resources */,
+				E095CEFD1963A44400E09673 /* Murky_tile.png in Resources */,
+				E095CEF71963A44400E09673 /* Gazlowe_tile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +421,13 @@
 			files = (
 				E00CF27A194E41600059F5C2 /* DEVHero.m in Sources */,
 				E095CECA1952150B00E09673 /* DEVHeroTalent.m in Sources */,
+				E095CF0F1963AA1B00E09673 /* DEVHeroStatsViewController.m in Sources */,
 				E095CEC41950C1C800E09673 /* DEVAbility.m in Sources */,
 				E00CF25A194E40BC0059F5C2 /* DEVAppDelegate.m in Sources */,
 				E00CF256194E40BC0059F5C2 /* main.m in Sources */,
 				E00CF27D194E6B1B0059F5C2 /* DEVHeroCollection.m in Sources */,
+				E095CF0C1963A76100E09673 /* DEVHeroViewController.m in Sources */,
+				E095CED21962581D00E09673 /* DEVHeroLoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

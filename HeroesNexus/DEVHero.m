@@ -29,14 +29,15 @@
 @property (nonatomic, readonly) float attackSpeedPerLevel;
 
 //abilities for the hero
-//consider replacing with an array
-@property (nonatomic, readonly) DEVAbility *qAbility;
-@property (nonatomic, readonly) DEVAbility *wAbility;
-@property (nonatomic, readonly) DEVAbility *eAbility;
-@property (nonatomic, readonly) DEVAbility *rAbilityOne;
-@property (nonatomic, readonly) DEVAbility *rAbilityTwo;
-@property (nonatomic, readonly) DEVAbility *trait;
-
+//locations in array are as follows:
+//0 - trait
+//1 - q ability
+//2 - w ability
+//3 - e ability
+//4 - r1 ability
+//5 - r2 ability
+//need to decide how to handle abathur's second set of 3 abilities (q2, w2, e2)?
+@property (nonatomic, readonly) NSMutableArray *abilityArray;
 
 //number formatter for getting the stats
 @property (nonatomic) NSNumberFormatter *formatter;
@@ -48,9 +49,12 @@
 @implementation DEVHero
 
 - (instancetype)initWithDictionary:(NSDictionary *)heroDict
-                     withAbilities:(NSDictionary *)abilDict
+                     withAbilities:(NSArray *)abilDict
 {
     self = [super init];
+    NSArray *tempAbilityArray = [[NSArray alloc] initWithArray:abilDict];
+    _abilityArray = [[NSMutableArray alloc] init];
+    
     _formatter = [[NSNumberFormatter alloc] init];
     [_formatter setNumberStyle:NSNumberFormatterDecimalStyle];
     [_formatter setUsesSignificantDigits:YES];
@@ -59,6 +63,7 @@
     if(self){
         //load in the info
         _name = heroDict[@"name"];
+        _imagePath = [heroDict[@"name"] stringByAppendingString:@"_tile.png"];
         _lore = heroDict[@"lore"];
         _universe = heroDict[@"universe"];
         _title = heroDict[@"title"];
@@ -80,12 +85,9 @@
         _attackSpeedPerLevel = [heroDict[@"attackSpeedPerLevel"] floatValue];
         
         //load in the abilities
-        _qAbility = [[DEVAbility alloc] initAbility:abilDict[@"q"]];
-        _wAbility = [[DEVAbility alloc] initAbility:abilDict[@"w"]];
-        _eAbility = [[DEVAbility alloc] initAbility:abilDict[@"e"]];
-        _trait = [[DEVAbility alloc] initAbility:abilDict[@"trait"]];
-        _rAbilityOne = [[DEVAbility alloc]initAbility:abilDict[@"r"][0]];
-        _rAbilityTwo = [[DEVAbility alloc]initAbility:abilDict[@"r"][1]];
+        for(NSDictionary *ability in tempAbilityArray) {
+            [_abilityArray addObject:[[DEVAbility alloc] initAbility:ability]];
+        }
         
         //set current level to 0
         _currentLevel = 0;
@@ -186,27 +188,26 @@
     DEVAbility *ability = [DEVAbility alloc];
     
     switch (abil) {
+        case DEVHeroAbilityTrait:
+            ability = _abilityArray[0];
+            break;
         case DEVHeroAbilityQ:
-            ability = _qAbility;
+            ability = _abilityArray[1];
             break;
         case DEVHeroAbilityW:
-            ability = _wAbility;
+            ability = _abilityArray[2];
             break;
         case DEVHeroAbilityE:
-            ability = _eAbility;
-            break;
-        case DEVHeroAbilityTrait:
-            ability = _trait;
+            ability = _abilityArray[3];
             break;
         case DEVHeroAbilityROne:
-            ability = _rAbilityOne;
+            ability = _abilityArray[4];
             break;
         case DEVHeroAbilityRTwo:
-            ability = _rAbilityTwo;
+            ability = _abilityArray[5];
             break;
     }
     returnString = ability.abilityDescription;
-    
     //if the string contains "###", then replace ### with the actual damage values
     if([ability.abilityDescription rangeOfString:@"###"].location != NSNotFound){
         NSString *statValue;
@@ -242,7 +243,6 @@
         }
         returnString = [returnString stringByReplacingOccurrencesOfString:@"@@@" withString:statValue];
     }
-    
     return returnString;
 }
 

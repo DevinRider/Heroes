@@ -9,6 +9,9 @@
 #import "DEVAppDelegate.h"
 #import "DEVHeroCollection.h"
 #import "DEVHero.h"
+#import "DEVHeroViewController.h"
+#import "DEVHeroStatsViewController.h"
+#import "DEVHeroLoreViewController.h"
 
 @implementation DEVAppDelegate
 
@@ -16,15 +19,23 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    DEVHero *brightwing = [[DEVHeroCollection heroCollection] allItems][@"Tassadar"];
+    
+    //testing area. Anything below this is testing only.
+    /////////////////////////////////////////////////////////
+    DEVHero *brightwing = [[DEVHeroCollection heroCollection] allItems][@"Brightwing"];
     [brightwing setLevel:10];
-    NSLog(@"Q: %@", [brightwing abilityDescription:DEVHeroAbilityQ]);
-    NSLog(@"W: %@", [brightwing abilityDescription:DEVHeroAbilityW]);
-    NSLog(@"E: %@", [brightwing abilityDescription:DEVHeroAbilityE]);
-    NSLog(@"R1: %@", [brightwing abilityDescription:DEVHeroAbilityROne]);
-    NSLog(@"R2: %@", [brightwing abilityDescription:DEVHeroAbilityRTwo]);
-    NSLog(@"Trait: %@", [brightwing abilityDescription:DEVHeroAbilityTrait]);
+    NSLog(@"imagePath = %@", brightwing.imagePath);
 
+    DEVHeroLoreViewController *heroLore = [[DEVHeroLoreViewController alloc] initWithHero:brightwing];
+    DEVHeroStatsViewController *heroStats = [[DEVHeroStatsViewController alloc] initWithHero:brightwing];
+    
+    UITabBarController *heroTabBarController = [[UITabBarController alloc] init];
+    heroTabBarController.viewControllers = @[heroLore,heroStats];
+    
+    self.window.rootViewController = heroTabBarController;
+    
+    //////////////////////////////////////////////////////////
+    //end test area
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
